@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.user.shoppingmate.PurchaseForm"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:text="My Cart"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:id="@+id/textView13"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnPurchaseMenuAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginTop="70dp"
+        />
+
+    <ListView
+        android:id="@+id/lstPurchaseFormItemList"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtPurchaseFormTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:text="Total : Rs. 0.00"
+        android:gravity="right"/>
+
+    <Button
+        android:id="@+id/btnPurchaseFormCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+</ScrollView>

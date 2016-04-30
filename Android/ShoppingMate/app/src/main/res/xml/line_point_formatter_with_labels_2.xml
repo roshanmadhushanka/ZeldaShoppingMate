@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Food -->
+<config
+    linePaint.strokeWidth="5dp"
+    linePaint.color="#2196F3"
+    vertexPaint.strokeWidth="20dp"
+    vertexPaint.color="#0D47A1"
+    fillPaint.color="#00000000"
+    pointLabelFormatter.textPaint.color="#FFFFFF"/>

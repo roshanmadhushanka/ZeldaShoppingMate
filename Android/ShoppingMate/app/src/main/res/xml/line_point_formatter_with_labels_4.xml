@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Clothe -->
+<config
+    linePaint.strokeWidth="5dp"
+    linePaint.color="#CDDC39"
+    vertexPaint.strokeWidth="20dp"
+    vertexPaint.color="#827717"
+    fillPaint.color="#00000000"
+    pointLabelFormatter.textPaint.color="#FFFFFF"/>

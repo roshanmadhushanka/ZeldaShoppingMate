@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.user.shoppingmate.MainMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:text="Zelda Menu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:id="@+id/textView13"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMainMenuBuyMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy More"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:id="@+id/btnMainMenuPurchaseHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase History"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnMainMenuMyAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnMainMenuExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:background="@drawable/button_attractive"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100dp"
+        />
+</LinearLayout>
+</ScrollView>
